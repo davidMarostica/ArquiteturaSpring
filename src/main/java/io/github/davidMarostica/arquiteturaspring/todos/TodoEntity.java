@@ -1,10 +1,9 @@
 package io.github.davidMarostica.arquiteturaspring.todos;
 
-
 import jakarta.persistence.*;
 
 @Entity
-@Table
+@Table(name = "tb_todo")
 public class TodoEntity {
 
     @Id
